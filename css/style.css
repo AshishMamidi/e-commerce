@@ -1,0 +1,265 @@
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@300&display=swap');
+*
+{
+  padding: 0px;
+  margin: 0px;
+  box-sizing: border-box;
+}
+
+.cart
+{
+  width: 3.5%;
+}
+
+.navbar
+{
+  display: flex;
+padding: 20px;
+}
+
+
+nav
+{
+  text-align: right;
+flex: 1;
+}
+
+nav ul{
+  display:inline-block;
+  list-style: none;
+}
+nav ul li{
+  display: inline-block;
+  margin-right: 20px;
+  list-style: none;
+  padding-left: 10px;
+padding-right: 10px;
+padding-top: 10px;
+padding-bottom: 10px;
+border-radius: 10px;
+transition: background 0.7s;
+}
+a{
+  text-decoration: none;
+  color: #261C2C;
+}
+
+.first-container
+{
+  max-width: 1300px;
+  margin:auto;
+  padding-left: 20px;
+  padding-right: 20px;
+}
+
+.second-container
+{
+  display: flex;
+justify-content: space-around;
+align-content: flex-end;
+}
+.shoe-photo
+{
+  width: 40%;
+  position: relative;
+left: 25px;
+border: solid #2C394B;
+}
+
+.gear
+{
+  padding-top: 50%;
+  font-family: 'Noto Sans JP', sans-serif;
+}
+.paragraph1
+{
+  padding-top: 10%;
+  font-family: 'Noto Sans JP', sans-serif;
+
+}
+
+.gear:hover
+{
+  color: #3E2C41;
+  cursor: pointer;
+}
+.button
+{
+  background-color: #FF4848;
+  padding: 25px auto;
+  margin:0 5px;
+  border-radius: 20px;
+  padding: 8px 15px;
+display: inline-block;
+margin: 30px;
+transition: color 0.4s;
+transition: background 0.4s;
+}
+.button:hover{
+  color: white;
+  /* box-shadow: 3px 3px 1px black; */
+  background-color: #BD1616
+}
+
+.main
+{
+   background-color: #FFF5FD
+}
+.features
+{
+  margin: 50px 0;
+}
+
+ .photo1
+{
+  width: 50%;
+  flex-basis: 30%;
+  display: inline-block;
+}
+.photo{
+  width: 50%;
+  transition: border 0.2s;
+}
+
+.row
+{
+  display: flex;
+justify-content: flex-end;
+align-content: center;
+align-items: center;
+padding-top: 20px;
+}
+
+.photo:hover{
+  border: solid #3E2C41;
+}
+
+.small-content
+{
+  max-width: 1080px;
+  margin: auto;
+  padding-left: 25px;
+  padding-right: 25px;
+}
+
+
+
+.deals
+{
+  text-align: center;
+padding-bottom: 20px;
+position: relative;
+right: 2%;
+font-size: 20px;
+font-family: 'Noto Sans JP', sans-serif;
+padding-bottom: 25px;
+}
+body{
+  background-color: #FFF5FD;
+}
+
+.featured-col1
+{
+  flex-basis: 25%;
+  padding: 10px;
+  min-width: 200px;
+  margin-bottom: 50px;
+   background-color: #FFF5FD;
+  /* border: solid aliceblue; */
+  transition: border 0.4s;
+  transition: background 0.7s;
+
+}
+.Featured-products
+{
+  display: flex;
+justify-content: space-between;
+margin: auto;
+width: 1080px;
+padding-right: 0px;
+  padding-top: 3%;
+}
+.Deals
+{
+  text-align: center;
+padding-bottom: 20px;
+position: relative;
+right: 2%;
+font-size: 20px;
+font-family: 'Noto Sans JP', sans-serif;
+font-size: 25px;
+}
+
+.dollars
+{
+  font-family: 'Noto Sans JP', sans-serif;
+}
+
+.phantom
+{
+  font-family: 'Noto Sans JP', sans-serif;
+      font-size: 15px;
+
+}
+
+.mercurial
+{
+  font-family: 'Noto Sans JP', sans-serif;
+        font-size: 15px;
+
+}
+.featured-col1:hover
+{
+  background-color: #F4DFD0;
+  border-style: none;
+}
+a
+{
+  transition: background 0.7s;
+}
+
+nav ul li:hover{
+
+  background-color: #FF6B6B
+
+}
+span
+{
+    font-size: 90%;
+    color: #B61919
+}
+.rating
+{
+  color: aliceblue;
+}
+.cus
+{
+  padding-bottom: 4%;
+padding-top: 4%;
+color: grey;
+}
+ .jerseys
+ {
+   min-height: 319px;
+ }
+ hr
+ {
+   width: 4%;
+   position: absolute;
+   bottom: 50%;
+   left: 50%;
+   transform: translateX(-50%);
+ }
+.like
+{
+  display: inline-grid;
+  justify-content: unset;
+}
+
+.icon
+{
+  display: inline-block;
+position: relative;
+left: 225px;
+}
